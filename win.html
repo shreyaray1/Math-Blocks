@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="math.css" />
+    <title>MathBlocks</title>
+    <script src="easyM.js"></script>
+    <style>
+      body {
+        background-color: lightgreen;
+        font-family: "Raleway", Sans-serif;
+      }
+      h1 {
+        color: black;
+        font-size: 75px;
+      }
+      #scores {
+        font-size: 20px;
+      }
+      #boxes {
+        position: relative;
+        top: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .new-game {
+        height: 70px;
+        width: 150px;
+        font-size: 20px;
+        font-family: "serif";
+        margin: 10px;
+      }
+      .home {
+        height: 70px;
+        width: 150px;
+        font-size: 20px;
+        font-family: "sans-serif";
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>YOU BEAT THE LEVEL!</h1>
+
+      <div id="scores">
+        <p>Current Score:</p>
+        <div id="score"></div>
+        <script type="text/javascript">
+          displayScore();
+        </script>
+
+        <p>High Score:</p>
+        <div id="high-score"></div>
+        <script type="text/javascript">
+          displayScore();
+        </script>
+      </div>
+
+      <div id="boxes">
+        <button class="home" onclick="change('index.html')">
+          <strong>Home</strong>
+        </button>
+        <button class="new-game" onclick="newPage()">
+          <strong>New game</strong>
+        </button>
+      </div>
+    </center>
+  </body>
+</html>

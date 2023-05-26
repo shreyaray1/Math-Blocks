@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="math.css" />
+    <title>MathBlocks</title>
+    <style>
+      img {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+      }
+
+      h1 {
+        z-index: 1;
+        width: 500px;
+        padding: 10px;
+        background: turquoise;
+        color: blue;
+        font-size: 75px;
+      }
+
+      div {
+        z-index: 3;
+      }
+
+      button {
+        z-index: 2;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>MathBlocks</h1>
+    </center>
+    <center>
+      <div id="buttons">
+        <button class="but1" onclick="change('easy.html')">Easy</button>
+        <br />
+        <button class="but2" onclick="change('medium.html')">Medium</button>
+        <br />
+        <button class="but3" onclick="change('hard.html')">Hard</button>
+      </div>
+      <button class="inst" onclick="change('instructions.html')">
+        <strong>Instructions</strong>
+      </button>
+      <img id="background" src="background.png" alt="background" />
+    </center>
+    <script src="easyM.js"></script>
+  </body>
+</html>

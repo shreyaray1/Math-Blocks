@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="math.css" />
+    <title>MathBlocks</title>
+    <style>
+      body {
+        background-color: lightgreen;
+        font-family: "Raleway", Sans-serif;
+      }
+
+      h1 {
+        color: green;
+        font-size: 75px;
+        top: -50px;
+      }
+
+      #myAnimation1 {
+        background: lightgreen;
+      }
+      #myAnimation2 {
+        background: lightgreen;
+      }
+      #myAnimation3 {
+        background: lightgreen;
+      }
+
+      .start {
+        border: 2px solid green;
+        color: green;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <h1>MathBlocks</h1>
+      <h2>Level: Easy</h2>
+      <p id="livesC"></p>
+      <button id="start" onclick="moveBlock()">Start Game</button>
+
+      <div id="play"></div>
+    </center>
+
+    <button class="return" onclick="change('index.html')">
+      <strong>Home</strong>
+    </button>
+
+    <center>
+      <div id="myAnimation1">
+        <p class="box" id="easyQues1"></p>
+      </div>
+
+      <div id="checks1">
+        <input type="radio" id="ans11" name="an1" value="1" />
+        <label for="an1" id="easyAns11"></label>
+        <input type="radio" id="ans21" name="an1" value="2" />
+        <label for="an2" id="easyAns21"></label>
+        <input type="radio" id="ans31" name="an1" value="3" />
+        <label for="an3" id="easyAns31"></label>
+      </div>
+
+      <div id="myAnimation2">
+        <p class="box" id="easyQues2"></p>
+      </div>
+
+      <div id="checks2">
+        <input type="radio" id="ans12" name="an2" value="4" />
+        <label for="an4" id="easyAns12"></label>
+        <input type="radio" id="ans22" name="an2" value="5" />
+        <label for="an5" id="easyAns22"></label>
+        <input type="radio" id="ans32" name="an2" value="6" />
+        <label for="an6" id="easyAns32"></label>
+      </div>
+
+      <div id="myAnimation3">
+        <p class="box" id="easyQues3"></p>
+      </div>
+
+      <div id="checks3">
+        <input type="radio" id="ans13" name="an3" value="7" />
+        <label for="an7" id="easyAns13"></label>
+        <input type="radio" id="ans23" name="an3" value="8" />
+        <label for="an8" id="easyAns23"></label>
+        <input type="radio" id="ans33" name="an3" value="9" />
+        <label for="an9" id="easyAns33"></label>
+      </div>
+    </center>
+
+    <script src="easyM.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="math.css" />
+    <title>MathBlocks</title>
+    <style>
+      body {
+        background-color: lightblue;
+        font-family: "Raleway", Sans-serif;
+      }
+      h1 {
+        color: blue;
+        font-size: 75px;
+      }
+      .return {
+        position: relative;
+        top: -110px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>MathBlocks</h1>
+      <p id="instructions">
+        Welcome to MathBlocks! This game's purpose is to train your speed in
+        solving algebra equations.<br /><br />
+        There are 3 levels - easy, medium, and hard. The easy level contains
+        simple linear equations where you solve for x, such as 2x - 3 = 9. The
+        medium level contains quadratic equations which are slightly more
+        difficult (they will only have one answer), such as x^2 + 2x + 1. The
+        hard level is the most difficult and is consisted of other polynomials,
+        such at x^3 - 8 = 0.<br /><br />Once you press the start button in the
+        game, blocks with equations written on them will begin to drop. You have
+        to answer them before they reach the bottom of the white box. There will
+        be three radio buttons above each question, and if you pick the one with
+        the right answer, a new equation will appear at the top once more. If you 
+        pick the one with the wrong answer the equation box will disappear and you 
+        will lose a life. The goal is to get the most correct answers before you 
+        lose three lives. You lose a life if you cannot answer the question before 
+        it reaches the ground.<br /><br />Have fun!
+      </p>
+    </center>
+    <button class="return" onclick="change('index.html')">
+      <strong>Home</strong>
+    </button>
+    <script src="easyM.js"></script>
+  </body>
+</html>

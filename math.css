@@ -1,0 +1,163 @@
+h1 {
+  top: -50px;
+  position: relative;
+}
+h2 {
+  top: -105px;
+  position: relative;
+}
+#livesC {
+  top: -120px;
+  position: relative;
+}
+#start {
+  position: relative;
+  top: -130px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  font-family: serif;
+  background-color: white;
+}
+#play {
+  position: relative;
+  background-color: white;
+  border: 5px solid black;
+  height: 430px;
+  top: -125px;
+  z-index: 0;
+}
+.return {
+  position: relative;
+  float: right;
+  top: -120px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border: 1px solid blue;
+  font-family: serif;
+  background-color: pink;
+}
+
+#myAnimation1 {
+  width: 200px;
+  height: 50px;
+  left: 50px;
+  top: 280px;
+  position: absolute;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  visibility: hidden;
+}
+#myAnimation2 {
+  width: 200px;
+  height: 50px;
+  left: 600px;
+  top: 280px;
+  position: absolute;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  visibility: hidden;
+}
+#myAnimation3 {
+  width: 200px;
+  height: 50px;
+  left: 900px;
+  top: 280px;
+  position: absolute;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 1;
+  visibility: hidden;
+}
+
+.box {
+  text-align: center;
+  font-size: 25px;
+  position: relative;
+  top: -25px;
+}
+
+#checks1 {
+  visibility: hidden;
+  z-index: 5;
+  top: 200px;
+}
+#checks2 {
+  visibility: hidden;
+  z-index: 5;
+  top: 20px;
+}
+#checks3 {
+  visibility: hidden;
+  z-index: 5;
+  top: 20px;
+}
+
+#instructions {
+  position: relative;
+  top: -95px;
+  margin: 15px 15px 30px 15px;
+  padding: 8px;
+  background: #7ba0ff;
+  border: 5px solid blue;
+  font-size: 30px;
+  font-family: serif;
+}
+
+.inst {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  border: 1px solid blue;
+  font-family: serif;
+  background-color: pink;
+}
+.but1 {
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+  font-size: 30px;
+  border: 5px solid blue;
+  font-family: serif;
+  color: green;
+  background-color: pink;
+}
+.but2 {
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+  font-size: 30px;
+  border: 5px solid blue;
+  font-family: serif;
+  color: yellow;
+  background-color: pink;
+}
+.but3 {
+  width: 200px;
+  height: 100px;
+  margin-top: 20px;
+  font-size: 30px;
+  border: 5px solid blue;
+  font-family: serif;
+  background-color: pink;
+  color: red;
+}
+#buttons {
+  position: relative;
+  top: -50px;
+}
